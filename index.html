@@ -2,9 +2,46 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Selectors CSS</title>
 </head>
 <body>
 
+<div class="main-wrapper">
+
+    <p>Застосувати до всіх p, які є дочірніми для div class=“main-wrapper”</p>
+
+    <div>
+        <h2>Застосувати до всіх тегів h2</h2>
+
+        <p>Застосувати до p, який безпосередньо слідує за h2 та знаходиться з ним на одному рівні в DOM-дереві</p>
+
+        <p class="another-paragraph">Застосувати до елементів, які мають class=“another-paragraph”</p>
+
+        <p id="paragraph">Застосувати до елемента з id =“paragraph”</p>
+
+        <p>Застосувати до p, який є 5 дитиною свого батьківського елементу</p>
+
+        <section>
+            <p>Застосувати до всіх p, які знаходяться в section</p>
+        </section>
+
+    </div>
+
+    <div>
+        <p>Застосувати до p, які є першим дочірнім елементом div, який знаходиться в div class=“main-wrapper”</p>
+
+        <a href="https://img.freepik.com/free-photo/cute-kitten-on-clouds_23-2150752838.jpg?size=626&ext=jpg">
+            Застосувати до всіх a, чиї атрибути href закінчуються на =jpg
+        </a>
+
+        <br>
+
+        <a href="https://img.freepik.com/free-photo/cute-cat-indoors_23-2150932260.jpg?size=626&ext=jpg&ga=GA1.1.290889871.1726232813&semt=ais_hybrid">
+            Застосувати до всіх a дочірніх для div
+        </a>
+    </div>
+
+</div>
 </body>
 </html>

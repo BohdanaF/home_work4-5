@@ -1,0 +1,43 @@
+
+div.main-wrapper > p {
+    background-color: brown;
+}
+
+h2 {
+    background-color: red;
+}
+
+h2 + p {
+    background-color: orange;
+}
+
+.another-paragraph {
+    background-color: yellow;
+}
+
+#paragraph {
+    background-color: green;
+}
+
+div p:nth-child(5) {
+    background-color: dodgerblue;
+}
+
+section p {
+    background-color: blue;
+}
+
+div.main-wrapper > div > p:first-child {
+    background-color: purple;
+}
+
+a[href$="=jpg"] {
+    background-color: plum;
+}
+
+div > a {
+    background-color: pink;
+
+    text-decoration: none;
+    color: black;
+}
